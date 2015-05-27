@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B247F6F31B0CAA0E006430FB /* Main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B247F6F21B0CAA0E006430FB /* Main.cpp */; };
+		B2CA89CB1B15CCA200331BFE /* Person.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2CA89CA1B15CCA200331BFE /* Person.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,8 +25,10 @@
 
 /* Begin PBXFileReference section */
 		B247F6E71B0CA9F2006430FB /* HackerGitCPP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HackerGitCPP; sourceTree = BUILT_PRODUCTS_DIR; };
-		B247F6F11B0CAA0E006430FB /* list.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = list.txt; sourceTree = "<group>"; };
+		B247F6F11B0CAA0E006430FB /* list.txt */ = {isa = PBXFileReference; fileEncoding = 2147484706; lastKnownFileType = text; path = list.txt; sourceTree = "<group>"; };
 		B247F6F21B0CAA0E006430FB /* Main.cpp */ = {isa = PBXFileReference; fileEncoding = 2147484706; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 2; path = Main.cpp; sourceTree = "<group>"; };
+		B2CA89CA1B15CCA200331BFE /* Person.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Person.cpp; sourceTree = "<group>"; };
+		B2CA89CC1B15D66500331BFE /* person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = person.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,8 @@
 			children = (
 				B247F6F11B0CAA0E006430FB /* list.txt */,
 				B247F6F21B0CAA0E006430FB /* Main.cpp */,
+				B2CA89CC1B15D66500331BFE /* person.h */,
+				B2CA89CA1B15CCA200331BFE /* Person.cpp */,
 			);
 			path = HackerGitCPP;
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2CA89CB1B15CCA200331BFE /* Person.cpp in Sources */,
 				B247F6F31B0CAA0E006430FB /* Main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -237,6 +243,7 @@
 				B247F6F01B0CA9F3006430FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

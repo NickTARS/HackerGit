@@ -1,6 +1,7 @@
 #include <iostream>
 #include <ctime>
 #include <cstdlib>
+#include "Person.h"
 using namespace std;
 
 //	각 문제를 해결했을 때마다, 해당 시점에서 commit 할 것.
@@ -56,8 +57,8 @@ int main()
 	//	멤버함수
 	//		말하기(talk)			: "Hello, world!"를 출력한다.
 	//		잠자기(sleep)		: "zzz"를 출력한다.
-
-
+    
+    
 	//  3번
 	//	반 성적 관리 시스템
     //  학생(student)에 대한 구조체와 응시과목(item)에 대한 구조체를 만든다.
@@ -86,6 +87,6 @@ int main()
 	
 	//	4번
 	//	교육자에게 하고싶은 말을 적으시오.
-	//	
+	//	: 사랑합니다
 	return 0;
 }
